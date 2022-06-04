@@ -1,0 +1,16 @@
+[
+  {
+    "name": "dark",
+    "backgroundColor": "#000",
+    "color": "#fff",
+    "green": "green",
+    "red": "red"
+  },
+  {
+    "name" : "light",
+    "backgroundColor": "#fff",
+    "color": "#000",
+    "green": "green",
+    "red": "red"
+  }
+]
