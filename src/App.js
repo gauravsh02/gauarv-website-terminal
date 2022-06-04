@@ -17,16 +17,14 @@ function App() {
 
   return (
     <>
-      <div className="overflow-y-auto h-full" ref={containerRef} onClick={focusOnInput} style={{backgroundColor: theme.backgroundColor, color: theme.color}}  >
+    <div className='min-w-max text-xs md:min-w-full md:text-base'>
+      <div className="overflow-y-auto h-full w-full" ref={containerRef} onClick={focusOnInput} style={{backgroundColor: theme.backgroundColor, color: theme.color}}  >
         <CMDInput
           inputRef={inputRef}
           containerRef={containerRef}
         />
-        {/* <div>
-          <span>{theme.name}</span>
-          <button onClick={() => { setTheme('light') }}> click here </button>
-        </div> */}
       </div>
+    </div>
     </>
   );
 }
