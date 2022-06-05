@@ -1,0 +1,20 @@
+{
+  "short_name": "Gaurav Shankar",
+  "name": "Gaurav Shankar Terminal Website",
+  "icons": [
+    {
+      "src": "gauravsh.svg",
+      "sizes": "24x24",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "gauravsh.svg",
+      "type": "image/svg",
+      "sizes": "24x24"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
